@@ -1,0 +1,70 @@
+*{
+    background-color:  lightgray;
+}
+#Color{
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+#Profile{
+    height: 180px;
+    background-color: aqua;
+    
+}
+#education {
+    padding: 40px;
+}
+
+#education h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #222;
+    color: white;
+}
+
+.about-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 30px;
+    border-bottom: 2px solid black;
+}
+
+/* Image */
+.profile-image {
+    width: 200px;
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* About Me */
+.about-content {
+    flex: 1;
+}
+
+.about-content h2 {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.5;
+}
